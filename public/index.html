@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Express boilerplate</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="card">
+      <h1>Wyślij wiadomość</h1>
+      <form id="message-form">
+        <label for="message">Tekst</label>
+        <input id="message" name="message" type="text" required autocomplete="off" />
+        <button type="submit">Wyślij</button>
+      </form>
+      <p id="response" aria-live="polite"></p>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
